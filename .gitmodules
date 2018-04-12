@@ -1,0 +1,3 @@
+[submodule "Dependencies/zstd"]
+	path = Dependencies/zstd
+	url = git@github.com:facebook/zstd.git
