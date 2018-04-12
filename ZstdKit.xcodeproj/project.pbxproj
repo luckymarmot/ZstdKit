@@ -52,6 +52,8 @@
 		AE105BF7207FF97A00C60FD2 /* LMZstdCompression.h in Headers */ = {isa = PBXBuildFile; fileRef = AE105BF5207FF97A00C60FD2 /* LMZstdCompression.h */; };
 		AE105BFA207FFF2300C60FD2 /* LMZstdCompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = AE105BF8207FFF2300C60FD2 /* LMZstdCompressor.h */; };
 		AE105BFB207FFF2300C60FD2 /* LMZstdCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = AE105BF9207FFF2300C60FD2 /* LMZstdCompressor.m */; };
+		AE105BFE2080009F00C60FD2 /* NSData+ZstdCompression.h in Headers */ = {isa = PBXBuildFile; fileRef = AE105BFC2080009F00C60FD2 /* NSData+ZstdCompression.h */; };
+		AE105BFF2080009F00C60FD2 /* NSData+ZstdCompression.m in Sources */ = {isa = PBXBuildFile; fileRef = AE105BFD2080009F00C60FD2 /* NSData+ZstdCompression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,8 @@
 		AE105BF5207FF97A00C60FD2 /* LMZstdCompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMZstdCompression.h; sourceTree = "<group>"; };
 		AE105BF8207FFF2300C60FD2 /* LMZstdCompressor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMZstdCompressor.h; sourceTree = "<group>"; };
 		AE105BF9207FFF2300C60FD2 /* LMZstdCompressor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMZstdCompressor.m; sourceTree = "<group>"; };
+		AE105BFC2080009F00C60FD2 /* NSData+ZstdCompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+ZstdCompression.h"; sourceTree = "<group>"; };
+		AE105BFD2080009F00C60FD2 /* NSData+ZstdCompression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZstdCompression.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,10 +161,12 @@
 			children = (
 				AE105B42207FF7D400C60FD2 /* ZstdKit.h */,
 				AE105B43207FF7D400C60FD2 /* Info.plist */,
-				AE105BF9207FFF2300C60FD2 /* LMZstdCompressor.m */,
+				AE105BFC2080009F00C60FD2 /* NSData+ZstdCompression.h */,
+				AE105BFD2080009F00C60FD2 /* NSData+ZstdCompression.m */,
 				AE105BF8207FFF2300C60FD2 /* LMZstdCompressor.h */,
-				AE105BF4207FF97A00C60FD2 /* LMZstdCompression.c */,
+				AE105BF9207FFF2300C60FD2 /* LMZstdCompressor.m */,
 				AE105BF5207FF97A00C60FD2 /* LMZstdCompression.h */,
+				AE105BF4207FF97A00C60FD2 /* LMZstdCompression.c */,
 				AE105B59207FF90000C60FD2 /* lib */,
 			);
 			path = ZstdKit;
@@ -255,6 +261,7 @@
 				AE105BC3207FF90000C60FD2 /* zstd_compress_internal.h in Headers */,
 				AE105BF3207FF90000C60FD2 /* zstd.h in Headers */,
 				AE105BB8207FF90000C60FD2 /* pool.h in Headers */,
+				AE105BFE2080009F00C60FD2 /* NSData+ZstdCompression.h in Headers */,
 				AE105BAE207FF90000C60FD2 /* compiler.h in Headers */,
 				AE105BC7207FF90000C60FD2 /* zstd_fast.h in Headers */,
 				AE105BAD207FF90000C60FD2 /* bitstream.h in Headers */,
@@ -395,6 +402,7 @@
 				AE105BFB207FFF2300C60FD2 /* LMZstdCompressor.m in Sources */,
 				AE105BD1207FF90000C60FD2 /* zstd_decompress.c in Sources */,
 				AE105BB1207FF90000C60FD2 /* error_private.c in Sources */,
+				AE105BFF2080009F00C60FD2 /* NSData+ZstdCompression.m in Sources */,
 				AE105BB0207FF90000C60FD2 /* entropy_common.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
