@@ -117,6 +117,7 @@
 		AE105BF9207FFF2300C60FD2 /* LMZstdCompressor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMZstdCompressor.m; sourceTree = "<group>"; };
 		AE105BFC2080009F00C60FD2 /* NSData+ZstdCompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+ZstdCompression.h"; sourceTree = "<group>"; };
 		AE105BFD2080009F00C60FD2 /* NSData+ZstdCompression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZstdCompression.m"; sourceTree = "<group>"; };
+		AE105C00208003DA00C60FD2 /* ZstdKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZstdKit.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +142,7 @@
 		AE105B35207FF7D400C60FD2 = {
 			isa = PBXGroup;
 			children = (
+				AE105C00208003DA00C60FD2 /* ZstdKit.podspec */,
 				AE105B41207FF7D400C60FD2 /* ZstdKit */,
 				AE105B4C207FF7D400C60FD2 /* ZstdKitTests */,
 				AE105B40207FF7D400C60FD2 /* Products */,
@@ -538,6 +540,8 @@
 		AE105B54207FF7D400C60FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -558,6 +562,8 @@
 		AE105B55207FF7D400C60FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

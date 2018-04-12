@@ -77,7 +77,7 @@ CFDataRef LMCreateZstdDecompressedData(const void* bytes, CFIndex length)
     }
 
     // copy output data to a new NSData
-    CFDataRef outputData = CFDataCreate(kCFAllocatorDefault, outputBuffer, outputBufferSize);
+    CFDataRef outputData = CFDataCreate(kCFAllocatorDefault, outputBuffer, (CFIndex)outputBufferSize);
 
     // free output buffer
     free(outputBuffer);
