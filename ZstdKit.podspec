@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = 'ZstdKit'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.license      = { :type => 'BSD', :file => 'LICENSE' }
   s.summary      = 'A Swift and Objective-C category for Zstd (Zstandard) compression.'
-  s.homepage     = 'https://github.com/luckymarmot/ZstdKit'
+  s.homepage     = 'https://github.com/mmdHussain/ZstdKit'
   s.authors      = { 'Paw' => 'https://paw.cloud' }
-  s.source       = { :git => 'https://github.com/luckymarmot/ZstdKit.git', :tag => s.version, :submodules => true }
+  s.source       = { :git => 'https://github.com/mmdHussain/ZstdKit.git', :tag => s.version, :submodules => true }
 
   s.ios.deployment_target  = '8.0'
   s.osx.deployment_target  = '10.8'
