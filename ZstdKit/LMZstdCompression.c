@@ -55,7 +55,7 @@ CFDataRef LMCreateZstdDecompressedData(const void* bytes, CFIndex length)
     }
 
     // find the output size
-    unsigned long long outputBufferSize = ZSTD_findDecompressedSize(bytes, length);
+    unsigned long long outputBufferSize = ZSTD_getDecompressedSize(bytes, length);
     if (ZSTD_CONTENTSIZE_ERROR == outputBufferSize ||
         ZSTD_CONTENTSIZE_UNKNOWN == outputBufferSize) {
         return NULL;
