@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ZstdKit'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.license      = { :type => 'BSD', :file => 'LICENSE' }
   s.summary      = 'A Swift and Objective-C category for Zstd (Zstandard) compression.'
   s.homepage     = 'https://github.com/luckymarmot/ZstdKit'
